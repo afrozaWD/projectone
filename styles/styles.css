@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+header {
+    margin:20px auto ;
+    width: 1320px;
+    border-radius: 16px;
+    
+    
+}
+.container {
+    background-image: url("../resources/BG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+   position: relative;
+   
+    
+  
+}
+
+.main_title {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.container .text1{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.container .text2{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 95px; /* 131.944% */
+}
+.discount {
+    text-align: center;
+    padding:50px 0;
+}
+.big_title {
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.samll_desc {
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.large_tile {
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.images_big  img {
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+    display: block;
+    
+}
