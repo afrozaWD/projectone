@@ -88,3 +88,55 @@ line-height: normal;
     display: block;
     
 }
+
+.welcome_section {
+    margin:100px auto ;
+    width: 1320px; 
+}
+
+.welcome_box_one {
+    background-image: url("../resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 600px;
+    overflow: hidden;
+    padding: 126px 300px 126px 126px;
+    
+}
+
+.welcome_box_two {
+    width:650px;
+}
+
+.welcome_box_two .big_title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+    text-align: left;
+}
+
+.welcome_box_two .small_desc {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+.welcome_box_two a {
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
